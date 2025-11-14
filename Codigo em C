@@ -47,15 +47,15 @@ int main() {
         getchar(); // limpa buffer do teclado
 
         switch(opcao) {
-            case 1: gerarRelatorio("D:\\Python Projetos\\Algoritmos_e_Estrutura_de_Dados_em_Python.csv");
+            case 1: gerarRelatorio("Local Do Arquivo no Computador");
                 break;
-            case 2: gerarRelatorio("D:\\Python Projetos\\Programacao_estruturada_em_C.csv");
+            case 2: gerarRelatorio("Local Do Arquivo no Computador");
                 break;
             case 3:
-                gerarRelatorio("D:\\Python Projetos\\Analise_e_Projeto_de_Sistemas.csv");
+                gerarRelatorio("Local Do Arquivo no Computador");
                 break;
             case 4:
-                gerarRelatorio("D:\\Python Projetos\\Engenharia_de_Software_Agil.csv");
+                gerarRelatorio("Local Do Arquivo no Computador");
                 break;
             case 0:
                 printf("\nEncerrando o programa...\n");
